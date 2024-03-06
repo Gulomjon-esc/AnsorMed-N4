@@ -223,3 +223,141 @@ p {
 }
 
 /* SITE HERO END */
+
+/* services start */
+.services {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.services-title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.2;
+	color: #000;
+	margin-bottom: 56px;
+}
+
+.services-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 60px;
+}
+
+.services-item {
+	display: flex;
+	align-items: center;
+}
+
+.services-item:not(:last-child) {
+	margin-bottom: 80px;
+}
+
+.services-img {
+	margin-right: 64px;
+}
+
+.services-img img {
+	width: 200px;
+	height: 200px;
+}
+
+.services-info {
+	max-width: 600px;
+	width: 100%;
+}
+
+.services-info-title {
+	margin-bottom: 24px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.2;
+	color: #222222;
+}
+
+.services-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* services end */
+
+/* MAIN-FOOTER START */
+.main-footer {
+	background-color: #0eb4c1;
+	padding-top: 64px;
+	padding-bottom: 64px;
+	color: #fff;
+}
+
+.main-footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-footer-title {
+	margin-bottom: 40px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.2;
+}
+
+.main-footer-info-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-footer-btn:not(:last-child) {
+	margin-right: 40px;
+}
+
+.main-footer-btn {
+	background-color: transparent;
+	border: 2px solid #fff;
+	text-decoration: none;
+}
+
+.main-footer-btn:hover {
+	background-color: #de2e54;
+	border: 2px solid #de2e54;
+	color: #fff;
+}
+/* MAIN-FOOTER END */
+
+/* site-footer start */
+.site-footer {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	color: #fff;
+	background-color: #222222;
+}
+
+.site-footer-title {
+	color: #fff;
+}
+
+.site-footer-title:hover {
+	color: #de2e54;
+}
+
+.site-footer-title:active {
+	color: #fff;
+}
+
+.site-footer-link {
+	color: #fff;
+}
+
+.site-footer-link:active {
+	color: #fff;
+}
+/* site-footer end */
